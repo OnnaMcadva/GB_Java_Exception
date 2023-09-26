@@ -15,7 +15,7 @@ public class task1 {
     }
 
     /**
-     * @apiNote проверка на float через HasFloat
+     * @apiNote проверка на float с помощью HasFloat
      */
     public static void inHasNextFloat() {
         while (true) {
