@@ -42,8 +42,8 @@ public class Model {
     }
 
     private void write() {
-        String path = "C:\\home\\annavm\\IdeaProjects" +
-                "\\GB_Java_Exception\\src\\main\\java\\exceptions\\semthree\\hw\\" + data.getLastName().toLowerCase() + ".txt";
+        String path = "/home/annavm/IdeaProjects" +
+                "/GB_Java_Exception/src/main/java/exceptions/semthree/hw/" + data.getLastName().toLowerCase() + ".txt";
         File file = new File(path);
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(path, true))) {
             if (!file.exists()) file.createNewFile();
